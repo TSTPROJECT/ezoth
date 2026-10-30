@@ -306,7 +306,7 @@
         "</button>" +
         '<div class="file__body" id="' + id + '" role="region" aria-label="' + esc(f.label) + '"><div class="file__inner"><ol class="file__list">' +
         f.entries.map(function (en) {
-          return '<li><p class="file__en">' + esc(en.en) + '</p><p class="file__src" lang="th">' + esc(en.source) + "</p></li>";
+          return "<li" + (en.quote ? ' class="is-quote"' : "") + '><p class="file__en">' + esc(en.en) + '</p><p class="file__src" lang="th">' + esc(en.source) + "</p></li>";
         }).join("") +
         "</ol></div></div></article>";
     }).join("");
@@ -341,6 +341,16 @@
     S.play(open ? "archive" : "close");
     syncArchiveAll();
   });
+
+  // ---------------------------------------------------------------
+  // Pull quote (a line in Ezoth's own voice)
+  // ---------------------------------------------------------------
+  if (C.quote) {
+    $("#quote-en").textContent = C.quote.en;
+    $("#quote-th").textContent = C.quote.th;
+    $("#quote-ctx").textContent = "— " + C.quote.context;
+    $("#pull-quote").hidden = false;
+  }
 
   // ---------------------------------------------------------------
   // Creator links from data

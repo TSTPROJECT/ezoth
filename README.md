@@ -15,9 +15,9 @@ Art direction: *Crimson Devil × Gothic Romance × Editorial Scrapbook* — ivor
 | --- | --- |
 | **Opening** | Loading heart that fills with crimson as the art loads, then a drawn heart, the EZO♥TH wordmark and a typed “Ah.. my little pet”. *Enter website* (optionally with music) or *Skip intro*. |
 | **Hero** | The original portrait in a taped polaroid on a crimson card, giant EZO / TH type, stickers. Layers follow the mouse (parallax). |
-| **Character Profile** | Name card, the creator's description with an **EN / ไทย original** toggle, identity stickers that flip to the creator's own Thai words, and the card artwork as a 3D tilt card. |
+| **Character Profile** | Name card, the creator's description with an **EN / ไทย original** toggle, identity stickers that flip to the creator's own Thai words, a pull-quote in Ezoth's own voice, and the card artwork as a 3D tilt card. |
 | **Gallery** | Both artworks in an editorial spread. Click to open the lightbox (keyboard ←/→/Esc, swipe on touch, focus trap). |
-| **Archive** | Four sealed files — Identity, Personality, Nature, Creator's Notes. Break a wax seal to open one. Every line shows its original Thai source. |
+| **Archive** | Seven sealed files — Identity, Origin, Personality, Nature, Favourite Food, Facts, Creator's Notes. Break a wax seal to open one. Every line shows its original Thai source. |
 | **Creator** | Credit card with a button to the creator's Facebook. |
 | **Footer** | Name, creator credit, fan-showcase disclaimer, *Replay intro*. |
 
@@ -31,7 +31,7 @@ Signature heart cursor with sparkle/heart trail and click bursts (desktop only) 
 
 ## Character information
 
-All text comes from the creator's original description (kept verbatim in Thai in `js/data.js`). English lines are only a re-wording for the interface. Nothing has been added: no age, height, powers, relationships, or fixed gender. Per the lore, Ezoth has no sex; the English text uses *they*.
+All text comes from the creator's own notes (kept verbatim in Thai in `js/data.js`): the first description, the origin story (an angel who served God, fled to the human world, then to London, where they took in Pandora), favourite food, and facts. English lines are only a re-wording for the interface. Nothing beyond the creator's notes has been added — no age, height, powers or fixed gender. Per the lore, Ezoth has no sex; the English text uses *they*.
 
 ## Sound
 
